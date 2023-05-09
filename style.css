@@ -77,3 +77,26 @@ a{
 a:hover{
     color: black;
 }
+
+.content{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 9999;
+}
+
+.navbar {
+    position: fixed;
+    top: -10px;
+    left: 0;
+    width: 100%;
+    z-index: 9999;
+    transition: top 0.5s;
+    background-color: #fff;
+}
+
+.navbar.scrolled {
+    top: 0;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
