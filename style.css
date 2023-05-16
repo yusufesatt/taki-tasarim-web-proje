@@ -24,8 +24,17 @@ img{
     background-color: #c0281e;
 }
 
-.productnames{
-    
+#indirimsiz{
+    font-family: 'Montserrat', sans-serif !important;
+}
+
+#indirimli{
+    font-family: 'Montserrat', sans-serif !important;
+    font-size: larger;
+}
+
+.taksitli{
+    color: #d73f3d;
 }
 
 .card{
@@ -36,6 +45,13 @@ img{
     border: 1px solid #d3d0d0;
     border-radius: 0;
 }
+
+.cardurun{
+    border: 1px solid #d3d0d0;
+    border-radius: 0;
+}
+
+
 
 del{
     color: #818181;
@@ -105,3 +121,17 @@ a:hover{
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
 }
 
+
+.satinal{
+    width: 60%;
+    height: 50px;
+    color: white;
+    font-size: 20px;
+    background-color: #cf212b;
+}
+
+
+.odemeyont{
+    width: 15%;
+    height: 10%;
+}
