@@ -75,7 +75,11 @@ a{
 }
 
 a:hover{
-    color: black;
+    color: rgb(168, 5, 5);
+}
+
+.kırmızı:hover{
+    color: #be2b27;
 }
 
 .content{
@@ -100,3 +104,4 @@ a:hover{
     top: 0;
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
 }
+
